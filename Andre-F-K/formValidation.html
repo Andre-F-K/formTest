@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Andre-F-K/formValidatin CSS/formValidation.css">
+    <title>formValidation</title>
+</head>
+
+<body >
+
+    <form action="info" method="post" class="form">
+    <div class="userId">
+        <label for="userId">User Id:</label>
+        <input type="text" id="userId" name="user_id" min="5" max="12" required>
+    </div>
+
+    <div class="password">
+        <label for="Password" >Password:</label>
+        <input type="password" id="Password" name="Password" required placeholder="123456">
+    </div>
+
+    <div class="name">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="address">
+        <label for="address">Adress:</label>
+        <input type="text" id="address" name="address">
+    </div> 
+
+    <div class="country">
+        <label for="Country">Country:</label>
+        <select id="country" name="country">
+            <option value="Afganistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+            <option value="Algeria">Algeria</option>
+            <option value="American Samoa">American Samoa</option>
+            <option value="Andorra">Andorra</option>
+        </select>
+    </div>
+
+    <div class="zipCode">
+        <label for="zipCode">ZIP Code</label>
+        <input type="number" id="zipCode">
+    </div>
+
+    <div class="email">
+        E-Mail:
+        <label for="eMail"></label>
+        <input type="email" id="eMail" required>
+    </div>
+
+    <div class="sex">
+    Sex:
+    <label for="sex"></label>
+    <input type="radio" id="Male" name="sex">Male
+    <label for="Female"></label>
+    <input type="radio" id="Female" name="sex">Female
+    </div>
+
+    <div class="language">
+        <label for="language" required>Language:</label>
+        <input type="checkbox" id="language">English
+        <input type="checkbox" id="language">Afrikaans
+    </div>
+
+    <div class="about">
+            <label for="about">About:</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+    </div>
+        
+    <button type="submit">Submit</button>
+        
+    <button type="reset"> Reset</button>
+
+
+    </form>
+
+
+</body>
+
+</html>

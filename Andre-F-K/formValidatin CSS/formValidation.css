@@ -1,0 +1,52 @@
+
+.form {
+   text-align: center;
+   padding: 5px;
+}
+
+.userId {
+    padding: 5px;
+}
+
+.password {
+    padding: 5px;
+}
+
+.name {
+    padding: 5px;
+}
+
+.adress {
+    padding: 5px;
+}
+
+.country {
+    padding: 5px;
+}
+
+.zipCode {
+    padding: 5px;
+}
+
+.email {
+    padding: 5px;
+}
+
+.sex {
+    padding: 5px;
+}
+
+.language {
+    padding: 5px;
+}
+
+.about {
+    padding: 5px;
+}
+
+#password ::placeholder {
+    background-color: aqua;
+}
+
+
+
